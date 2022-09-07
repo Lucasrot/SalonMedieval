@@ -66,10 +66,8 @@ body{
 }
 
 .left{
-    font-size: 20px;
+    font-size: 1rem;
 }
-
-
 
 /*Nosotros*/
 .nosotros{
@@ -133,6 +131,7 @@ body{
     -o-border-radius: 7px;
     margin: 0px 10px 10px 7px;
 }
+/*Especificar posicion de medida de menu*/
 @media screen and (max-width: 768px){
     iframe{
         width: 100%;
@@ -174,7 +173,7 @@ body{
 .formulario{
     text-align: center;
     height: 98%;
-    width: 400px;
+    width: 20rem;
     margin: 3px;
     border-style: groove;
     border-radius: 2px;
@@ -188,7 +187,7 @@ body{
     background-image: linear-gradient( #dfe213 30%, #8a2be2 70%);
 }
 form{
-    font-size: 1rem;
+    font-size: 80%;
 }
 
 
@@ -276,4 +275,11 @@ a:hover{
 
 img:hover{
     padding: 1px;
+}
+
+/*Especificar posicion de medida de footer*/
+@media  screen and (max-width: 690px){
+    h4{
+        display: none;
+    }
 }

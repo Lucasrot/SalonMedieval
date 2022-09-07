@@ -38,3 +38,10 @@ footer, a{
 a:hover{
     color: blueviolet;
 }
+
+/*Especificar posicion de medida de footer*/
+@media  screen and (max-width: 690px){
+    h4{
+        display: none;
+    }
+}
