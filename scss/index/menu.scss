@@ -1,0 +1,29 @@
+.catering{
+    background-image: url("../imagenes/papel1.png");
+    background-position: center;
+}
+.catering{
+    border: 8px solid $primario-color;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    margin: 0px 10px 10px 7px;
+    .entrada1{
+        font-size: 26px;
+    }
+    .entrada{
+        width: 200px;
+    }
+}
+/*Especificar posicion de medida de menu*/
+@media screen and (max-width: 768px){
+    iframe{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+

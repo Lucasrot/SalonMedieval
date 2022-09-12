@@ -1,0 +1,29 @@
+footer{
+    background-color: $primario-color;
+    color: $secundario-color;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a{
+        color: $secundario-color;
+        text-decoration: none;
+        &:hover{
+            color: $cuarto-color;
+            }
+    }
+    .facebook{
+        margin-right: 27px;
+        font-size: 30px;
+    }
+    img:hover{
+        padding: 1px;
+    }
+}
+
+/*Especificar posicion de medida de footer*/
+@media  screen and (max-width: 690px){
+    h4{
+        display: none;
+    }
+}

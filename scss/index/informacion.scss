@@ -1,0 +1,45 @@
+.parrafo{
+    background-image: url("../imagenes/papel1.png");
+    background-position: center;
+}
+.parrafo{
+    border: 8px solid $primario-color;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    margin: 20px 10px 1px 10px;
+    .derecha{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav{
+        margin: 3px 0px 3px 0px;
+    }
+    .right1{
+        text-decoration: none;
+        background: rgb(121, 119, 119);
+        color: $secundario-color;
+        font-size: 30px;
+        bottom: 25px;
+        border: 4px solid $primario-color;
+        border-radius: 9px;
+        -webkit-border-radius: 9px;
+        -moz-border-radius: 9px;
+        -ms-border-radius: 9px;
+        -o-border-radius: 9px;
+        &:hover{
+            color: $terciario-color;
+        }
+    }
+    
+    .left{
+        font-size: 1rem;
+    }
+    
+}
+
+

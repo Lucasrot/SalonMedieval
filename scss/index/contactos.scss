@@ -1,0 +1,65 @@
+.contenedor3{
+    border-style: solid;
+    border-color: $primario-color;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-width: 8px;
+    margin: 0px 0px 2px 8px;
+}
+.contenedor3{
+    background-image: url("../imagenes/papel1.png");
+    background-position: center;
+}
+
+.formulario{
+    text-align: center;
+    height: 98%;
+    width: 20rem;
+    margin: 3px;
+    border-style: groove;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-color: $primario-color;
+    form{
+        font-size: 80%;
+    }
+}
+.formulario{
+    background-image: linear-gradient( $terciario-color 30%, $cuarto-color 70%);
+}
+
+
+.tabla{
+    height: 2fr;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    background-color: $cuarto-color;
+    border-collapse: collapse;
+    margin: 3px;
+    th{
+        background-color: $terciario-color;
+    }
+    th, td{
+        border-style: solid;
+        border-color: $primario-color;
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        -o-border-radius: 7px;
+        border-width: 8px;
+    }
+    tr:hover{
+        background-color: $secundario-color;
+    }
+}
+
+
+
