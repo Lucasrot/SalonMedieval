@@ -1,8 +1,8 @@
 
 body{
     background-image: url('../imagenes/fondo.png');
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-family: $font-family;
 }
 /* se lo puse para la entrega de github*/
@@ -12,27 +12,27 @@ body{
     text-shadow: 3px 5px 5px $terciario-color;
     animation: saltar 2s infinite;
     -webkit-animation: saltar 2s infinite;
-}
-@keyframes saltar{
-    to{
-        transform: translatey(10px);
-        -webkit-transform: translatey(10px);
-        -moz-transform: translatey(10px);
-        -ms-transform: translatey(10px);
-        -o-transform: translatey(10px);
-    }
-    0%{
-        transform: translatey(0);
-        -webkit-transform: translatey(0);
-        -moz-transform: translatey(0);
-        -ms-transform: translatey(0);
-        -o-transform: translatey(0);
-    }
-    10%{
-        transform: translatey(-10px);
-        -webkit-transform: translatey(-10px);
-        -moz-transform: translatey(-10px);
-        -ms-transform: translatey(-10px);
-        -o-transform: translatey(-10px);
+    @keyframes saltar{
+        to{
+            transform: translatey(10px);
+            -webkit-transform: translatey(10px);
+            -moz-transform: translatey(10px);
+            -ms-transform: translatey(10px);
+            -o-transform: translatey(10px);
+        }
+        0%{
+            transform: translatey(0);
+            -webkit-transform: translatey(0);
+            -moz-transform: translatey(0);
+            -ms-transform: translatey(0);
+            -o-transform: translatey(0);
+        }
+        10%{
+            transform: translatey(-10px);
+            -webkit-transform: translatey(-10px);
+            -moz-transform: translatey(-10px);
+            -ms-transform: translatey(-10px);
+            -o-transform: translatey(-10px);
+        }
     }
 }
