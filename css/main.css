@@ -1,6 +1,7 @@
 @charset "UTF-8";
 body {
-  background-image: url("../imagenes/fondo.png");
+  background-image: url("../imagenes/fondo.jpg");
+  background-position: bottom;
   margin: 0;
   padding: 0;
   font-family: "MedievalSharp", cursive; }
@@ -146,9 +147,12 @@ footer {
 .catering {
   margin: 0px 10px 10px 7px; }
   .catering .entrada1 {
-    font-size: 26px; }
+    font-size: 20px; }
   .catering .entrada {
     width: 200px; }
+  .catering .carousel {
+    height: 80%;
+    width: 2fr; }
 
 /*Especificar posicion de medida de menu*/
 @media screen and (max-width: 768px) {
@@ -165,7 +169,7 @@ footer {
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
   border-width: 8px;
-  margin: 0px 8px 2px 8px; }
+  margin: 0px 8px 0px 8px; }
 
 .formulario {
   text-align: center;

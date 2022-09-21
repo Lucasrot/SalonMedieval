@@ -3,10 +3,14 @@
     @extend .parrafo;
     margin: 0px 10px 10px 7px;
     .entrada1{
-        font-size: 26px;
+        font-size: 20px;
     }
     .entrada{
         width: 200px;
+    }
+    .carousel{
+        height: 80%;
+        width: 2fr;
     }
 }
 /*Especificar posicion de medida de menu*/
