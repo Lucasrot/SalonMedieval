@@ -13,3 +13,32 @@
         }
     }
 }
+
+/*index en section Informacion*/
+@mixin informacion1 {
+    @media screen and (max-width: 767px){
+        .parrafo {
+            display: flex;
+            flex-direction: column;
+            .left{
+                font-size: 21px;
+            }
+            .right1{
+                font-size: 3rem;
+            }
+            .derecha{
+                display: flex;
+                align-content: stretch;
+                align-items: stretch;
+                height: 100%;
+                width: 100%;
+            }
+            .video{
+                height: 11rem;
+                width: 100%;
+            }
+        }
+    }
+}
+
+/*index en section contactos*/

@@ -1,5 +1,10 @@
 .contenedor3{
     @extend .parrafo;
+    height: 100%;
+    &{
+        background-image: url(/imagenes/papel.jpg);
+        background-position: center;
+    }
     border-style: solid;
     border-color: $primario-color;
     border-radius: 7px;
@@ -8,54 +13,33 @@
     -ms-border-radius: 7px;
     -o-border-radius: 7px;
     border-width: 8px;
-    margin: 0px 8px 0px 8px;
-}
-
-.formulario{
-    text-align: center;
-    height: 100%;
-    width: 20rem;
-    border-style: groove;
-    border-radius: 2px;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
-    border-color: $primario-color;
-    form{
-        font-size: 80%;
-    }
-}
-.formulario{
-    background-image: linear-gradient( $terciario-color 30%, $cuarto-color 70%);
-}
-
-
-.tabla{
-    height: 2fr;
-    text-align: center;
-    line-height: 60px;
-    font-size: 30px;
-    background-color: $cuarto-color;
-    border-collapse: collapse;
-    margin: 3px;
-    th{
-        background-color: $terciario-color;
-    }
-    th, td{
-        border-style: solid;
+    .formulario{
+        text-align: center;
+        height: 100%;
+        width: 80%;
+        border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+        -o-border-radius: 2px;
         border-color: $primario-color;
-        border-radius: 7px;
-        -webkit-border-radius: 7px;
-        -moz-border-radius: 7px;
-        -ms-border-radius: 7px;
-        -o-border-radius: 7px;
-        border-width: 8px;
-}
-    tr:hover{
-        background-color: $secundario-color;
+        form{
+            font-size: 100%;
+        }
+    }
+    .mapa{
+        width: 100%;
+        height: 450px;
+        .mapa1{
+            width: 100%;
+            height: 100%;
+        }
     }
 }
+
+
+/*width="600" height="450"*/
+
 
 
 

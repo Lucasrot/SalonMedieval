@@ -17,6 +17,10 @@
         align-items: center;
         justify-content: space-between;
     }
+    .video{
+        height: 100%;
+        width: 31rem;
+    }
     nav{
         margin: 3px 0px 3px 0px;
     }
@@ -39,5 +43,12 @@
     
     .left{
         font-size: 1rem;
+        font-family: 'Montserrat', sans-serif;
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+    }
+    .left::first-letter{
+        font-size: 20px;
     }
 }
+/*Especificar posicion responsive*/
+@include informacion1();

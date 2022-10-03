@@ -1,0 +1,143 @@
+.carrusel {
+    background: url(/imagenes/Fuegos-artificiales1.jpg);
+    background-position: center;
+    border-top: 2px solid $primario-color;
+    border-bottom: 20px solid $primario-color;
+    height: 546px;
+    .container {
+        position: relative;
+        width: 320px;
+        margin: 100px auto 0 auto;
+        perspective: 1000px;
+    }
+    .container {
+        position: relative;
+        width: 320px;
+        margin: 100px auto 0 auto;
+        perspective: 1000px;
+    }
+    .carousel {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        animation: rotate360 50s infinite forwards linear;
+        -webkit-animation: rotate360 50s infinite forwards linear;
+}
+    .carousel__face { 
+        position: absolute;
+        width: 300px;
+        height: 187px;
+        top: 20px;
+        left: 10px;
+        right: 10px;
+        background-size: cover;
+        box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+        display: flex;
+    }
+    span {
+        margin: auto;
+        font-size: 2rem;
+    }
+
+    .carousel__face:nth-child(1) {
+        background-image:
+        url(/imagenes/carrusel2.jpg);
+        transform: rotateY(  0deg) translateZ(430px);
+        -webkit-transform: rotateY(  0deg) translateZ(430px);
+        -moz-transform: rotateY(  0deg) translateZ(430px);
+        -ms-transform: rotateY(  0deg) translateZ(430px);
+        -o-transform: rotateY(  0deg) translateZ(430px);
+        }
+    .carousel__face:nth-child(2) {
+        background-image:
+        url(/imagenes/carrusel1.jpg);
+        transform: rotateY( 40deg) translateZ(430px);
+        -webkit-transform: rotateY( 40deg) translateZ(430px);
+        -moz-transform: rotateY( 40deg) translateZ(430px);
+        -ms-transform: rotateY( 40deg) translateZ(430px);
+        -o-transform: rotateY( 40deg) translateZ(430px);
+        }
+    .carousel__face:nth-child(3) {
+        background-image:
+        url(/imagenes/carrusel3.jpg);
+        transform: rotateY( 80deg) translateZ(430px);
+        -webkit-transform: rotateY( 80deg) translateZ(430px);
+        -moz-transform: rotateY( 80deg) translateZ(430px);
+        -ms-transform: rotateY( 80deg) translateZ(430px);
+        -o-transform: rotateY( 80deg) translateZ(430px);
+        }
+    .carousel__face:nth-child(4) {
+        background-image:
+        url(/imagenes/salon1.jpg);
+        transform: rotateY(120deg) translateZ(430px);
+        -webkit-transform: rotateY(120deg) translateZ(430px);
+        -moz-transform: rotateY(120deg) translateZ(430px);
+        -ms-transform: rotateY(120deg) translateZ(430px);
+        -o-transform: rotateY(120deg) translateZ(430px);
+    }
+    .carousel__face:nth-child(5) {
+        background-image:
+        url(/imagenes/salon4.jpg);
+        transform: rotateY(160deg) translateZ(430px);
+        -webkit-transform: rotateY(160deg) translateZ(430px);
+        -moz-transform: rotateY(160deg) translateZ(430px);
+        -ms-transform: rotateY(160deg) translateZ(430px);
+        -o-transform: rotateY(160deg) translateZ(430px);
+    }
+    .carousel__face:nth-child(6) {
+    background-image:
+    url(/imagenes/carrusel4.jpg);
+    transform: rotateY(200deg) translateZ(430px);
+    -webkit-transform: rotateY(200deg) translateZ(430px);
+    -moz-transform: rotateY(200deg) translateZ(430px);
+    -ms-transform: rotateY(200deg) translateZ(430px);
+    -o-transform: rotateY(200deg) translateZ(430px);
+    }
+    .carousel__face:nth-child(7) {
+    background-image:
+    url(/imagenes/casamiento2.jpg);
+    transform: rotateY(240deg) translateZ(430px);
+    -webkit-transform: rotateY(240deg) translateZ(430px);
+    -moz-transform: rotateY(240deg) translateZ(430px);
+    -ms-transform: rotateY(240deg) translateZ(430px);
+    -o-transform: rotateY(240deg) translateZ(430px);
+    }
+    .carousel__face:nth-child(8) {
+        background-image:
+        url(/imagenes/carrusel5.jpg);
+        transform: rotateY(280deg) translateZ(430px);
+        -webkit-transform: rotateY(280deg) translateZ(430px);
+        -moz-transform: rotateY(280deg) translateZ(430px);
+        -ms-transform: rotateY(280deg) translateZ(430px);
+        -o-transform: rotateY(280deg) translateZ(430px);
+    }
+    .carousel__face:nth-child(9) {
+        background-image:
+        url(/imagenes/logo.png);
+        background-position: center;
+        transform: rotateY(320deg) translateZ(430px);
+        -webkit-transform: rotateY(320deg) translateZ(430px);
+        -moz-transform: rotateY(320deg) translateZ(430px);
+        -ms-transform: rotateY(320deg) translateZ(430px);
+        -o-transform: rotateY(320deg) translateZ(430px);
+    }
+
+
+    @keyframes rotate360 {
+        from {
+        transform: rotateY(0deg);
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+    }
+        to {
+        transform: rotateY(-360deg);
+        -webkit-transform: rotateY(-360deg);
+        -moz-transform: rotateY(-360deg);
+        -ms-transform: rotateY(-360deg);
+        -o-transform: rotateY(-360deg);
+    }
+    }
+}

@@ -1,22 +1,10 @@
-
 .catering{
-    @extend .parrafo;
-    margin: 0px 10px 10px 7px;
-    .entrada1{
-        font-size: 20px;
-    }
-    .entrada{
-        width: 200px;
-    }
-    .carousel{
-        height: 80%;
-        width: 2fr;
-    }
-}
-/*Especificar posicion de medida de menu*/
-@media screen and (max-width: 768px){
-    iframe{
-        width: 100%;
-        height: 100%;
-    }
+    background-color: $primario-color;
+    border: 8px solid $primario-color;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    margin: 20px 10px 1px 10px;
 }

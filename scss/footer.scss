@@ -8,15 +8,21 @@ footer{
     a{
         color: $secundario-color;
         text-decoration: none;
-        &:hover{
-            color: $cuarto-color;
-            }
+    }
+    .facebook1:hover{
+        color: rgb(40, 40, 255);
+    }
+    .twitter1:hover{
+        color: rgb(22, 140, 209);
+    }
+    .github1:hover{
+        color: burlywood;
     }
     .facebook{
         margin-right: 27px;
         font-size: 30px;
     }
-    img:hover{
+    .Logo2:hover{
         padding: 1px;
     }
 }
@@ -25,5 +31,5 @@ footer{
 @media  screen and (max-width: 690px){
     h4{
         display: none;
-    }
+    }            
 }
