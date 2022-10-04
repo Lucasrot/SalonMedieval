@@ -1,5 +1,5 @@
 .carrusel {
-    background-image: url(".../imagenes/Fuegos-artificiales1.jpg");
+    background-image: url("/imagenes/Fuegos-artificiales1.jpg");
     background-position: center;
     border-top: 2px solid $primario-color;
     border-bottom: 20px solid $primario-color;
@@ -42,7 +42,7 @@
 
     .carousel__face:nth-child(1) {
         background-image:
-        url(".../imagenes/carrusel2.jpg");
+        url("/imagenes/carrusel2.jpg");
         transform: rotateY(  0deg) translateZ(430px);
         -webkit-transform: rotateY(  0deg) translateZ(430px);
         -moz-transform: rotateY(  0deg) translateZ(430px);
@@ -51,7 +51,7 @@
         }
     .carousel__face:nth-child(2) {
         background-image:
-        url(".../imagenes/carrusel1.jpg");
+        url("/imagenes/carrusel1.jpg");
         transform: rotateY( 40deg) translateZ(430px);
         -webkit-transform: rotateY( 40deg) translateZ(430px);
         -moz-transform: rotateY( 40deg) translateZ(430px);
@@ -60,7 +60,7 @@
         }
     .carousel__face:nth-child(3) {
         background-image:
-        url(".../imagenes/carrusel3.jpg");
+        url("/imagenes/carrusel3.jpg");
         transform: rotateY( 80deg) translateZ(430px);
         -webkit-transform: rotateY( 80deg) translateZ(430px);
         -moz-transform: rotateY( 80deg) translateZ(430px);
@@ -69,7 +69,7 @@
         }
     .carousel__face:nth-child(4) {
         background-image:
-        url(".../imagenes/imagenes/salon1.jpg");
+        url("/imagenes/imagenes/salon1.jpg");
         transform: rotateY(120deg) translateZ(430px);
         -webkit-transform: rotateY(120deg) translateZ(430px);
         -moz-transform: rotateY(120deg) translateZ(430px);
@@ -78,7 +78,7 @@
     }
     .carousel__face:nth-child(5) {
         background-image:
-        url(".../imagenes/imagenes/salon4.jpg");
+        url("/imagenes/imagenes/salon4.jpg");
         transform: rotateY(160deg) translateZ(430px);
         -webkit-transform: rotateY(160deg) translateZ(430px);
         -moz-transform: rotateY(160deg) translateZ(430px);
@@ -87,7 +87,7 @@
     }
     .carousel__face:nth-child(6) {
     background-image:
-    url(".../imagenes/imagenes/carrusel4.jpg");
+    url("/imagenes/imagenes/carrusel4.jpg");
     transform: rotateY(200deg) translateZ(430px);
     -webkit-transform: rotateY(200deg) translateZ(430px);
     -moz-transform: rotateY(200deg) translateZ(430px);
@@ -96,7 +96,7 @@
     }
     .carousel__face:nth-child(7) {
     background-image:
-    url(".../imagenes/imagenes/casamiento2.jpg");
+    url("/imagenes/imagenes/casamiento2.jpg");
     transform: rotateY(240deg) translateZ(430px);
     -webkit-transform: rotateY(240deg) translateZ(430px);
     -moz-transform: rotateY(240deg) translateZ(430px);
@@ -105,7 +105,7 @@
     }
     .carousel__face:nth-child(8) {
         background-image:
-        url(".../imagenes/imagenes/carrusel5.jpg");
+        url("/imagenes/imagenes/carrusel5.jpg");
         transform: rotateY(280deg) translateZ(430px);
         -webkit-transform: rotateY(280deg) translateZ(430px);
         -moz-transform: rotateY(280deg) translateZ(430px);
@@ -114,7 +114,7 @@
     }
     .carousel__face:nth-child(9) {
         background-image:
-        url(".../imagenes/imagenes/logo.png");
+        url("/imagenes/imagenes/logo.png");
         background-position: center;
         transform: rotateY(320deg) translateZ(430px);
         -webkit-transform: rotateY(320deg) translateZ(430px);
