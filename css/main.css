@@ -75,7 +75,7 @@ footer {
     display: none; } }
 
 .carrusel {
-  background-image: url("../../imagenes/Fuegos-artificiales1.jpg");
+  background-image: url("../imagenes/Fuegos-artificiales1.jpg");
   background-position: center;
   border-top: 2px solid #000000;
   border-bottom: 20px solid #000000;
@@ -111,63 +111,63 @@ footer {
     margin: auto;
     font-size: 2rem; }
   .carrusel .carousel__face:nth-child(1) {
-    background-image: url("../../imagenes/carrusel2.jpg");
+    background-image: url("../imagenes/carrusel2.jpg");
     transform: rotateY(0deg) translateZ(430px);
     -webkit-transform: rotateY(0deg) translateZ(430px);
     -moz-transform: rotateY(0deg) translateZ(430px);
     -ms-transform: rotateY(0deg) translateZ(430px);
     -o-transform: rotateY(0deg) translateZ(430px); }
   .carrusel .carousel__face:nth-child(2) {
-    background-image: url("../../imagenes/carrusel1.jpg");
+    background-image: url("../imagenes/carrusel1.jpg");
     transform: rotateY(40deg) translateZ(430px);
     -webkit-transform: rotateY(40deg) translateZ(430px);
     -moz-transform: rotateY(40deg) translateZ(430px);
     -ms-transform: rotateY(40deg) translateZ(430px);
     -o-transform: rotateY(40deg) translateZ(430px); }
   .carrusel .carousel__face:nth-child(3) {
-    background-image: url("../../imagenes/carrusel3.jpg");
+    background-image: url("../imagenes/carrusel3.jpg");
     transform: rotateY(80deg) translateZ(430px);
     -webkit-transform: rotateY(80deg) translateZ(430px);
     -moz-transform: rotateY(80deg) translateZ(430px);
     -ms-transform: rotateY(80deg) translateZ(430px);
     -o-transform: rotateY(80deg) translateZ(430px); }
   .carrusel .carousel__face:nth-child(4) {
-    background-image: url("../../imagenes/salon1.jpg");
+    background-image: url("../imagenes/salon1.jpg");
     transform: rotateY(120deg) translateZ(430px);
     -webkit-transform: rotateY(120deg) translateZ(430px);
     -moz-transform: rotateY(120deg) translateZ(430px);
     -ms-transform: rotateY(120deg) translateZ(430px);
     -o-transform: rotateY(120deg) translateZ(430px); }
   .carrusel .carousel__face:nth-child(5) {
-    background-image: url("../../imagenes/salon4.jpg");
+    background-image: url("../imagenes/salon4.jpg");
     transform: rotateY(160deg) translateZ(430px);
     -webkit-transform: rotateY(160deg) translateZ(430px);
     -moz-transform: rotateY(160deg) translateZ(430px);
     -ms-transform: rotateY(160deg) translateZ(430px);
     -o-transform: rotateY(160deg) translateZ(430px); }
   .carrusel .carousel__face:nth-child(6) {
-    background-image: url("../../imagenes/carrusel4.jpg");
+    background-image: url("../imagenes/carrusel4.jpg");
     transform: rotateY(200deg) translateZ(430px);
     -webkit-transform: rotateY(200deg) translateZ(430px);
     -moz-transform: rotateY(200deg) translateZ(430px);
     -ms-transform: rotateY(200deg) translateZ(430px);
     -o-transform: rotateY(200deg) translateZ(430px); }
   .carrusel .carousel__face:nth-child(7) {
-    background-image: url("../../imagenes/casamiento2.jpg");
+    background-image: url("../imagenes/casamiento2.jpg");
     transform: rotateY(240deg) translateZ(430px);
     -webkit-transform: rotateY(240deg) translateZ(430px);
     -moz-transform: rotateY(240deg) translateZ(430px);
     -ms-transform: rotateY(240deg) translateZ(430px);
     -o-transform: rotateY(240deg) translateZ(430px); }
   .carrusel .carousel__face:nth-child(8) {
-    background-image: url("../../imagenes/carrusel5.jpg");
+    background-image: url("../imagenes/carrusel5.jpg");
     transform: rotateY(280deg) translateZ(430px);
     -webkit-transform: rotateY(280deg) translateZ(430px);
     -moz-transform: rotateY(280deg) translateZ(430px);
     -ms-transform: rotateY(280deg) translateZ(430px);
     -o-transform: rotateY(280deg) translateZ(430px); }
   .carrusel .carousel__face:nth-child(9) {
-    background-image: url("../../imagenes/logo.png");
+    background-image: url("../imagenes/logo.png");
     background-position: center;
     transform: rotateY(320deg) translateZ(430px);
     -webkit-transform: rotateY(320deg) translateZ(430px);
@@ -317,7 +317,7 @@ footer {
   -o-border-radius: 7px;
   border-width: 8px; }
   .contenedor3 {
-    background-image: url("../../imagenes/papel.jpg");
+    background-image: url("../imagenes/papel.jpg");
     background-position: center; }
   .contenedor3 .formulario {
     text-align: center;
