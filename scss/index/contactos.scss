@@ -2,7 +2,7 @@
     @extend .parrafo;
     height: 100%;
     &{
-        background-image: url("/imagenes/papel.jpg");
+        background-image: url("../../imagenes/papel.jpg");
         background-position: center;
     }
     border-style: solid;
