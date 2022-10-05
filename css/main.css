@@ -395,7 +395,7 @@ footer {
   -ms-border-radius: 7px;
   -o-border-radius: 7px; }
   .dueña .fondo-dueña {
-    background-image: url(../imagenes/papel1.jpg);
+    background-image: url("../imagenes/papel1.jpg");
     height: 100%;
     width: 100%;
     background-position: center;
@@ -436,7 +436,7 @@ footer {
     margin-top: 10px;
     margin-bottom: 8px; }
   .fondo-dueña {
-    background-image: url(../imagenes/papel1.jpg);
+    background-image: url("../imagenes/papel1.jpg");
     height: 100%;
     width: 100%;
     background-position: center;
@@ -486,7 +486,7 @@ footer {
 
 /*section class="empleados"*/
 aside {
-  background-image: url(../imagenes/papel1.jpg);
+  background-image: url("../imagenes/papel1.jpg");
   height: 100%;
   width: 100%;
   background-position: center;
