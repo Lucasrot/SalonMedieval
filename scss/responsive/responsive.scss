@@ -39,6 +39,24 @@
             }
         }
     }
+    @media screen and (min-width: 1100px ){
+        .parrafo{
+            height: 500px;
+            .left{
+                font-size: x-large;
+            }
+            .right1{
+                font-size: 2rem;
+            }
+            .derecha{
+                display: flex;
+                align-content: stretch;
+                align-items: stretch;
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
 }
 
-/*index en section contactos*/
+/**/
